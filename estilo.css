@@ -1,0 +1,68 @@
+.border{
+    background-color: beige;
+    border: 1px solid #000;
+    border-radius: 10px; /*Es lo que le da el redondeo a los cuadros*/
+}
+.flex-container{
+    width: 1200px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+div{
+    cursor: pointer; /*pointer para que la imagen del cursor cambie a una manita
+                    text para que cambie a la imagen para capturar texto*/
+}
+.item1{
+    background-color: pink;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;/*Es lo que le da el redondeo a los cuadros*/
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+}
+.item1:hover{
+    background-color: rgb(231, 209, 180);
+    /*Se pasa el mouse y se pone de otro color*/
+    border-radius: 100%;
+    /*Cuando pasa el mouse cambia a un circulo (redondea bordes) DUDA*/
+    text-size-adjust: 1px;
+}
+.item2{
+    background-color: rgb(193, 241, 193);
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;/*Es lo que le da el redondeo a los cuadros*/
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+}
+.item2:hover{
+    background-color:rgb(238, 218, 238);
+    /*Se pasa el mouse y se pone de otro color*/
+    border-radius: 200%;
+    /*Cuando pasa el mouse cambia a un circulo (redondea bordes) DUDA*/
+}
+.item3{
+    background-color: rgb(175, 175, 228);
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;/*Es lo que le da el redondeo a los cuadros*/
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+}
+.item3:hover{
+    background-color: rgb(148, 161, 123);
+    /*Se pasa el mouse y se pone de otro color*/
+    border-radius: 100%;
+    /*Cuando pasa el mouse cambia a un circulo (redondea bordes) DUDA*/
+}
